@@ -6,7 +6,7 @@ A lightweight Flask application demonstrating robust request rate limiting based
 - **Global Rate Limiting**: Defaults to 200 requests/day and 50 requests/hour.
 - **Route-Specific Limits**: Custom thresholds for sensitive endpoints (e.g., `/ping`, `/slow`).
 - **IP Identification**: Automatically identifies users via their remote address.
-- **Custom Error Responses**: Returns clean JSON errors when limits are exceeded.
+- **Custom Error Responses**: Returns clean JSON errors when limits are exceeded
 
 ## 🛠️ Logic Overview
 
