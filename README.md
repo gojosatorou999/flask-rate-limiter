@@ -2,7 +2,7 @@
 
 A lightweight Flask application demonstrating robust request rate limiting based on User IP addresses. It uses `Flask-Limiter` to protect API endpoints from brute force and abuse.
 
-## 🚀 Features
+## 🚀 Features 
 - **Global Rate Limiting**: Defaults to 200 requests/day and 50 requests/hour.
 - **Route-Specific Limits**: Custom thresholds for sensitive endpoints (e.g., `/ping`, `/slow`).
 - **IP Identification**: Automatically identifies users via their remote address.
