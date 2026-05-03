@@ -1,4 +1,4 @@
-# Flask Rate Guard 🛡️
+# Flask Rate Guard 
 
 A lightweight Flask application demonstrating robust request rate limiting based on User IP addresses. It uses `Flask-Limiter` to protect API endpoints from brute force and abuse.
 
