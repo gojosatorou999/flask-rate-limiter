@@ -7,7 +7,7 @@ A lightweight Flask application demonstrating robust request rate limiting based
 - **Route-Specific Limits**: Custom thresholds for sensitive endpoints (e.g., `/ping`, `/slow`).
 - **IP Identification**: Automatically identifies users via their remote address.
 - **Custom Error Responses**: Returns clean JSON errors when limits are exceeded.
- 
+  
 ## 🛠️ Logic Overview
     
 The application uses `Flask-Limiter` with the following configuration: 
