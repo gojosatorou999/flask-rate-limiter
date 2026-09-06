@@ -15,7 +15,7 @@ The application uses `Flask-Limiter` with the following configuration:
 2. **Storage**: Currently configured with `memory://`. For production, this can be easily swapped to `redis://` or `mongodb://` for persistent tracking.
 3. **Decorators**: Routes are protected using the `@limiter.limit()` decorator, allowing for granular control over different API sections.
  
-## 📦 Installation
+## 📦 Installation 
 
 1. Clone the repository
 2. Install dependencies:
