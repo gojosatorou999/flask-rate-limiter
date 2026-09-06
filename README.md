@@ -8,7 +8,7 @@ A lightweight Flask application demonstrating robust request rate limiting based
 - **IP Identification**: Automatically identifies users via their remote address.
 - **Custom Error Responses**: Returns clean JSON errors when limits are exceeded.
   
-## 🛠️ Logic Overview
+## 🛠️ Logic Overview 
     
 The application uses `Flask-Limiter` with the following configuration: 
 1. **Key Function**: `get_remote_address` is used as the unique identifier for rate limiting. This ensures that limits are tracked per individual IP address.
